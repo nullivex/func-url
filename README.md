@@ -6,8 +6,6 @@ URL related functions (shortname, urlname, etc)
 Usage
 ----
 ```php
-ld('func/url');
-
 $name = 'This Page';
 $urlname = urlname($name); //returns this-page
 $shortname = shortname($name); //returns thispage
